@@ -775,3 +775,9 @@ body {
                 width: 100%;
         }
 }
+
+@media (max-width:450px){
+.list h1, .btn_{display: none;}
+.list a{border: none;}
+.mySwiper2{width: 204px;}       
+}
