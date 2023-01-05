@@ -223,14 +223,6 @@ body {
 
 .text{ word-break: keep-all;}
 
-.list li a:hover{background-color: #f9b10d;
-                color: #fff;
-                border-radius: 15px;}
-
-.square{width: 70px ;
-        height: 2px;
-        background-color: #f9b10d; 
-        margin:0 auto;}
 .text{font-size: 15px;
      text-align: center;
         margin: 25px 0 80px 0;
@@ -265,11 +257,35 @@ body {
     }
 
     .m_gnb {
-            display: block;
-            position: absolute;
-            top: -70px;
-            right: 20px;
-    }
+        display: block;
+        position: absolute;
+        top: -70px;
+        right: 20px;
+}
+
+    .container{width: 100%;}
+    .list{display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0;
+         justify-content: space-around;}
+    
+
+    .list li a{height: 170px;
+        width: 170px;    
+            font-size: 25px;}
+    
+    .list li p{ padding-top: 80px;}
+    
+    .list li a:hover{background-color: #f9b10d;
+                    color: #fff;
+                    border-radius: 15px;}
+
+    .text{font-size: 15px;
+         text-align: center;
+            margin: 25px 0 80px 0;
+            font-weight: bold;}
+;}
+
 
             /*footer*/
             .footer {
