@@ -290,7 +290,11 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
-
+    .text a{ }
+    .list li{width: 240px;
+            background-color:#fff;}
+    .list img{            border-radius: 20px;}
+    .text{display: none;}
     .list li:nth-child(4) {
         display: none;
     }
