@@ -25,6 +25,7 @@ body {
     height: 175px;
     width: 100%;
     position: relative;
+    background-color: #fff;
 }
 
 .header {

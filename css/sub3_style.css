@@ -25,6 +25,7 @@ body {
 #header_wrap {
         height: 175px;
         position: relative;
+        background-color: #fff;
 }
 
 .header {

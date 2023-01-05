@@ -25,6 +25,7 @@ body {
 #header_wrap {
     height: 175px;
     position: relative;
+    background-color: #fff;
 }
 
 .header {
@@ -35,6 +36,7 @@ body {
     padding-top: 30px;
     box-sizing: border-box;
     height: 110px;
+    background-color: #fff;
 }
 
 .login {
@@ -43,6 +45,7 @@ body {
     right: 0;
     display: flex;
     font-weight: bold;
+    background-color: #fff;
 }
 
 .login li a {
@@ -322,6 +325,7 @@ h3 {
         display: block;
         text-align: center;
         height: 250px;
+        margin-top: 50px;
     }
 
     .left {

@@ -22,12 +22,13 @@ body {
 
 /*header*/
 #header_wrap {
+        background-color: #fff;
         height: 175px;
         width: 100%;
         position: relative;
 }
 
-.header {
+.header { background-color: #fff;
         width: 1320px;
         margin: 0 auto;
         text-align: center;
@@ -686,12 +687,13 @@ body {
         }
         
         .donation {
-                width: 90%;
+                width: 100%;
+               margin: 0 auto;
         }
 
         .donation_list {
                 display: flex;
-                justify-content: center;
+                justify-content: space-around;
                 text-align: center;
         }
 
@@ -700,6 +702,7 @@ body {
                 height: 50px;
                 border-radius: 25px;
                 background-color: none;
+                margin:0 0  50px 0;
         }
 
         .donation_list li a {
