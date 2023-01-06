@@ -393,7 +393,7 @@ body {
                 width: 100%;
         }
 
-        .text {
+        .text {word-break: keep-all;
                 width: 65%;
                 height: 450px;
         }
@@ -418,14 +418,16 @@ body {
                 width: 195px;
                 margin-top: 30px;
         }
-
+        .section1_center p{width: 90%;
+                          margin: 0 auto;}
         /*map*/
         .title_center {
                 width: 100%;
         }
 
         .map_info {
-                width: 100%;
+                width: 90%;
+                word-break: keep-all;
         }
 
         /*footer*/
@@ -433,6 +435,7 @@ body {
                 width: 100%;
                 margin: 0;
                 box-sizing: border-box;
+                
         }
 
         .link {
